@@ -93,26 +93,25 @@ Optionally, sentence-level bias predictions
 ## 📊 Visualizations
 
 ### 1. Bias Scores by Topic
-![Bias Scores](notebook_image_1.png)
-
-
+![Bias Scores](images/notebook_image_1.png)
 
 ### 2. Bias vs. Article Type Heatmap
-![Bias Heatmap](notebook_image_2.png)
+![Bias Heatmap](images/notebook_image_2.png)
 
 ### 3. Sentiment Polarity in Biased vs. Unbiased Text
-![Sentiment Distribution](notebook_image_3.png)
+![Sentiment Distribution](images/notebook_image_3.png)
 
 ### 4. Top Biased Words
-![Biased Words](notebook_image_4.png)
+![Top Biased Words](images/notebook_image_4.png)
 
 ### 5. Model Performance Comparison
-![Model Performance](notebook_image_5.png)
+![Model Performance](images/notebook_image_5.png)
 
 ### 6. MRCP Concreteness & Imageability
-![MRCP Ratings](notebook_image_6.png)
+![MRCP Ratings](images/notebook_image_6.png)
 
 ### 7. TF-IDF Feature Distribution
+![TF-IDF Features](images/notebook_image_7.png)
 
 
 
