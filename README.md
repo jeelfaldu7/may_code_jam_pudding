@@ -94,6 +94,8 @@ Optionally, sentence-level bias predictions
 
 ## 📊 Visualizations
 
+📊 Visualizations
+
 ### 1. Bias Scores by Topic
 ![Bias Scores](notebook_image_1.png)
 
@@ -114,6 +116,10 @@ Optionally, sentence-level bias predictions
 
 ### 7. TF-IDF Feature Distribution
 ![TF-IDF Features](notebook_image_7.png)
+
+
+
+
 
 🛠️ Tech Stack
 Python 3.x
