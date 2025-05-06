@@ -95,7 +95,7 @@ Optionally, sentence-level bias predictions
 ## 📊 Visualizations
 
 ### 1. Bias Scores by Topic
-![Bias Scores](images/notebook_image_1.png)
+![Bias Scores](notebook_image_1.png)
 
 ### 2. Bias vs. Article Type Heatmap
 ![Bias Heatmap](images/notebook_image_2.png)
