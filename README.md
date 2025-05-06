@@ -92,18 +92,28 @@ Optionally, sentence-level bias predictions
 
 📊 Visuals
 
+## 📊 Visualizations
 
-### 📊 Bias by Topic  
-![Bias by Topic](images/bias_by_topic.png)
+### 1. Bias Scores by Topic
+![Bias Scores](images/notebook_image_1.png)
 
-### 📈 Sentiment Polarity Distribution  
-![Sentiment Polarity](images/sentiment_polarity.png)
+### 2. Bias vs. Article Type Heatmap
+![Bias Heatmap](images/notebook_image_2.png)
 
-### 🔥 Most Frequent Biased Words  
-![Biased Words](images/biased_words.png)
+### 3. Sentiment Polarity in Biased vs. Unbiased Text
+![Sentiment Distribution](images/notebook_image_3.png)
 
-### 🧠 Model Performance Comparison  
-![Model Performance](images/model_comparison.png)
+### 4. Top Biased Words
+![Biased Words](images/notebook_image_4.png)
+
+### 5. Model Performance Comparison
+![Model Performance](images/notebook_image_5.png)
+
+### 6. MRCP Concreteness & Imageability
+![MRCP Ratings](images/notebook_image_6.png)
+
+### 7. TF-IDF Feature Distribution
+![TF-IDF Features](images/notebook_image_7.png)
 
 🛠️ Tech Stack
 Python 3.x
