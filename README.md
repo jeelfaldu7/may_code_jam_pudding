@@ -90,14 +90,12 @@ Bias score printed to console
 
 Optionally, sentence-level bias predictions
 
-📊 Visuals
-
 ## 📊 Visualizations
-
-📊 Visualizations
 
 ### 1. Bias Scores by Topic
 ![Bias Scores](notebook_image_1.png)
+
+
 
 ### 2. Bias vs. Article Type Heatmap
 ![Bias Heatmap](notebook_image_2.png)
@@ -115,7 +113,7 @@ Optionally, sentence-level bias predictions
 ![MRCP Ratings](notebook_image_6.png)
 
 ### 7. TF-IDF Feature Distribution
-![TF-IDF Features](notebook_image_7.png)
+
 
 
 
