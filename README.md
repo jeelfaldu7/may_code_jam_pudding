@@ -94,7 +94,7 @@ Optionally, sentence-level bias predictions
 
 ### 1. Bias Scores by Topic
 ![Bias Scores](notebook_images/notebook_image_1.png)
-
+![Bias Scores](https://github.com/jeelfaldu7/may_code_jam_pudding/blob/75a98da7e2c27ce3e1564902dac9f7cc4835791d/notebook_images/notebook_image_1.png)
 ### 2. Bias vs. Article Type Heatmap
 ![Bias Heatmap](notebook_images/notebook_image_2.png)
 
