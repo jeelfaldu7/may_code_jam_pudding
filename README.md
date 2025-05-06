@@ -168,7 +168,7 @@ Random Forest Classifier: 0.671
 
 XGBoost Classifier: 0.642
 
-A case study on a randomized Wikipedia article about the 2024 U.S. presidential election illustrated these patterns. While labeled as “center,” the article contained emotionally weighted language, showing that even supposedly neutral entries can exhibit subtle bias. Article bias: 0.01
+A case study on a randomized Wikipedia article about the 2024 U.S. presidential election illustrated these patterns. While labeled as “center,” the article contained emotionally weighted language, showing that even supposedly neutral entries can exhibit subtle bias. Neural network article bias is 11%.  TF-IDF Logistic Regression bias is 54%. 
 
 These results underscore the importance of critical reading and the potential for automated tools to assist in bias detection and editorial review on open platforms like Wikipedia.
 
