@@ -91,7 +91,7 @@ Bias score printed to console
 Optionally, sentence-level bias predictions
 
 📊 Visuals
-<p align="center"> <img src="notebooks/figures/sentiment_distribution.png" width="400"/> <img src="notebooks/figures/bias_score_example.png" width="400"/> </p>
+
 🛠️ Tech Stack
 Python 3.x
 
@@ -118,7 +118,16 @@ Jupyter for EDA
 
  Deploy as a web app or API
 
-🤝 Contributors
+🤝 Conclusions
+reveals that certain topics attract more biased language than others. 'Trump presidency' and 'white nationalism' have the highest average bias rates, with over 70% of sentences labeled as biased. These findings suggest that politically and socially charged topics are more prone to emotionally loaded language. On the other hand, topics like 'immigration', 'universal healthercare', and 'gun control' show lower bias rates, though they still remain near 45-50%, indicating that even these texts are not free from bias.
+
+Understanding which topics are more likely to contain biased language helps contextualize the limitations of people-contributed platforms like Wikipedia and can inform targeted moderation or review efforts
+
+sentiment polarity across biased and unbiased text of different articles. It reveals that while both categories generally maintain fa neutral tone on average, biased articles tend to exhibit a wider range of sentiment. This includes a higher frequency of strongly positive or negative sentiment, indicating that biased writing often uses more emotionally charge language. In contrast, unbiased texts shows a tighter sentiment distribution, reflecting a more balanced and objective tone. This suggests that sentiment polarity can serve as a useful signal in detecting bias, particularly when combined with other linguistic and contextual features.
+
+Top biased words are claim (claims, claimed, claiming), illegal, aliens.
+
+data suggests that media outlets vary widely in how frequently they use biased language. Alternet and Federalist have the highest average bias scores, suggesting strong ideological framing. Breitbart and HuffPost also show high bias, while MSNBC and Fox News despite opposing views - have similar moderate scores.Reuters and USA Today stand out for their low bias, reflecting more neutral reporting. Overall, outlets with a strong ideological orientation tend to have higher bias scores, whereas mainstream or centrist outlets tend to score lower. In particular, Reuters stands out for having the most neutral tone in its reporting.
 
 
 📄 License
