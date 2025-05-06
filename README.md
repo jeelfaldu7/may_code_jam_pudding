@@ -92,6 +92,35 @@ Optionally, sentence-level bias predictions
 
 📊 Visuals
 
+## 📊 Visualizations
+
+📊 Visualizations
+
+### 1. Bias Scores by Topic
+![Bias Scores](notebook_image_1.png)
+
+### 2. Bias vs. Article Type Heatmap
+![Bias Heatmap](notebook_image_2.png)
+
+### 3. Sentiment Polarity in Biased vs. Unbiased Text
+![Sentiment Distribution](notebook_image_3.png)
+
+### 4. Top Biased Words
+![Biased Words](notebook_image_4.png)
+
+### 5. Model Performance Comparison
+![Model Performance](notebook_image_5.png)
+
+### 6. MRCP Concreteness & Imageability
+![MRCP Ratings](notebook_image_6.png)
+
+### 7. TF-IDF Feature Distribution
+![TF-IDF Features](notebook_image_7.png)
+
+
+
+
+
 🛠️ Tech Stack
 Python 3.x
 
@@ -119,15 +148,31 @@ Jupyter for EDA
  Deploy as a web app or API
 
 🤝 Conclusions
-reveals that certain topics attract more biased language than others. 'Trump presidency' and 'white nationalism' have the highest average bias rates, with over 70% of sentences labeled as biased. These findings suggest that politically and socially charged topics are more prone to emotionally loaded language. On the other hand, topics like 'immigration', 'universal healthercare', and 'gun control' show lower bias rates, though they still remain near 45-50%, indicating that even these texts are not free from bias.
+Our analysis reveals that certain topics consistently attract more biased language than others. Notably, articles related to the Trump presidency and white nationalism show the highest average bias, with over 70% of sentences labeled as biased. This suggests that politically and socially charged subjects tend to include more emotionally loaded or opinionated language.
 
-Understanding which topics are more likely to contain biased language helps contextualize the limitations of people-contributed platforms like Wikipedia and can inform targeted moderation or review efforts
+In contrast, topics like immigration, universal healthcare, and gun control exhibit lower—but still significant—bias levels, typically around 45–50%. This highlights that even seemingly neutral or policy-driven discussions on Wikipedia are not immune to subtle bias.
 
-sentiment polarity across biased and unbiased text of different articles. It reveals that while both categories generally maintain fa neutral tone on average, biased articles tend to exhibit a wider range of sentiment. This includes a higher frequency of strongly positive or negative sentiment, indicating that biased writing often uses more emotionally charge language. In contrast, unbiased texts shows a tighter sentiment distribution, reflecting a more balanced and objective tone. This suggests that sentiment polarity can serve as a useful signal in detecting bias, particularly when combined with other linguistic and contextual features.
+We also analyzed sentiment polarity across biased and unbiased texts. While both categories generally maintain a neutral tone, biased articles show a wider emotional range—often skewing strongly positive or negative. Unbiased texts, by contrast, reflect a tighter, more balanced distribution. This suggests that sentiment polarity may serve as a useful feature in bias detection, especially when combined with other linguistic markers.
 
-Top biased words are claim (claims, claimed, claiming), illegal, aliens.
+Common biased word patterns include variations of “claim” (e.g., claims, claimed, claiming), as well as emotionally charged terms like “illegal” and “aliens.”
 
-data suggests that media outlets vary widely in how frequently they use biased language. Alternet and Federalist have the highest average bias scores, suggesting strong ideological framing. Breitbart and HuffPost also show high bias, while MSNBC and Fox News despite opposing views - have similar moderate scores.Reuters and USA Today stand out for their low bias, reflecting more neutral reporting. Overall, outlets with a strong ideological orientation tend to have higher bias scores, whereas mainstream or centrist outlets tend to score lower. In particular, Reuters stands out for having the most neutral tone in its reporting.
+Our findings further show that media sources differ significantly in their bias levels. Outlets like Alternet and The Federalist ranked highest in bias, followed by Breitbart and HuffPost. Interestingly, both Fox News and MSNBC—despite differing political leanings—had similar moderate bias levels. Reuters and USA Today stood out as the most neutral, underscoring the influence of editorial standards on perceived bias.
+
+We trained several machine learning models to predict bias, with the following results (F1 score):
+
+Neural Network: 0.746
+
+TF-IDF + Logistic Regression: 0.718
+
+LightGBM Classifier: 0.682
+
+Random Forest Classifier: 0.671
+
+XGBoost Classifier: 0.642
+
+A case study on a randomized Wikipedia article about the 2024 U.S. presidential election illustrated these patterns. While labeled as “center,” the article contained emotionally weighted language, showing that even supposedly neutral entries can exhibit subtle bias. Article bias: 0.01
+
+These results underscore the importance of critical reading and the potential for automated tools to assist in bias detection and editorial review on open platforms like Wikipedia.
 
 
 📄 License
