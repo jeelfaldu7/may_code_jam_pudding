@@ -27,6 +27,8 @@ Build a machine learning pipeline that:
 ├── README.md                 # Project overview
 ├── requirements.txt          # Python dependencies
 └── bias_predictor.py         # Script to run bias prediction on new Wikipedia articles
+```
+
 🔄 Workflow
 1. Data Collection
 Data is sourced from:
