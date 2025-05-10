@@ -29,7 +29,7 @@ Build a machine learning pipeline that:
 └── bias_predictor.py         # Script to run bias prediction on new Wikipedia articles
 ```
 
-🔄 Workflow
+## 🔄 Workflow
 1. Data Collection
 Data is sourced from:
 
@@ -66,28 +66,21 @@ Predicts sentence-level bias
 
 Aggregates results into a normalized bias score for the article
 
-🚀 How to Use
+## 🚀 How to Use
 Clone the repository
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/wiki-bias-detector.git
 cd wiki-bias-detector
+```
 Install dependencies
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Run a prediction
-
-bash
-Copy
-Edit
+```bash
 python bias_predictor.py --url "https://en.wikipedia.org/wiki/Some_Article"
+```
 Output
-
 Bias score printed to console
 
 Optionally, sentence-level bias predictions
@@ -120,7 +113,7 @@ Optionally, sentence-level bias predictions
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python 3.x
 
 Scikit-learn
@@ -133,7 +126,7 @@ Wikipedia-API
 
 Jupyter for EDA
 
-✅ To-Do
+## ✅ To-Do
  Data collection from Wikipedia API
 
  EDA of linguistic features
@@ -146,7 +139,7 @@ Jupyter for EDA
 
  Deploy as a web app or API
 
-🤝 Conclusions
+## 🤝 Conclusions
 Our analysis reveals that certain topics consistently attract more biased language than others. Notably, articles related to the Trump presidency and white nationalism show the highest average bias, with over 70% of sentences labeled as biased. This suggests that politically and socially charged subjects tend to include more emotionally loaded or opinionated language.
 
 In contrast, topics like immigration, universal healthcare, and gun control exhibit lower—but still significant—bias levels, typically around 45–50%. This highlights that even seemingly neutral or policy-driven discussions on Wikipedia are not immune to subtle bias.
@@ -176,8 +169,8 @@ These results underscore the importance of critical reading and the potential fo
 detection and editorial review on open platforms like Wikipedia.
 
 
-📄 License
+## 📄 License
 MIT License – see LICENSE file for details.
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 Thanks to Wikipedia, open-source libraries, and the Code Jam organizers for providing this challenge!
