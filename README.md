@@ -93,7 +93,7 @@ Optionally, sentence-level bias predictions
 ## 📊 Visualizations
 
 ### 1. Bias Scores by Topic
-![Bias Scores](notebook_images/notebook_image_1.png)
+[![Bias Scores](notebook_images/notebook_image_1.png)](https://github.com/jeelfaldu7/may_code_jam_pudding/blob/main/notebook_images/notebook_image_1.png)
 
 ### 2. Bias vs. Article Type Heatmap
 ![Bias Heatmap](notebook_images/notebook_image_2.png)
